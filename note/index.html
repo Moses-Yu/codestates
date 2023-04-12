@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 실습 </title>
+</head>
+
+<body>
+  <div>한 줄을 차지합니다.(block)</div>
+  <div>한 줄에 여러 개를 나열할 수 없겠죠?</div>
+  <span>줄 바꿈이 되지 않습니다.(inline)</span>
+  <span>따라서 한 줄에 여러 개를 나열 할 수 있습니다</span>
+
+  <!-- unordered list -->
+  <section>
+    <!-- 구역을 구분하기 위해서 -->
+    <h1>section 1에서 배우는 것</h1>
+    <ul>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>DOM</li>
+    </ul>
+  </section>
+
+  <div>hello</div>
+  <section>hello</section>
+
+  <!-- ordered list -->
+  <section>
+    <h3>가장 좋아하는 과일 순위</h3>
+    <!-- ol의 속성: type= "1", "A", "i", "I" / start="3" -->
+    <ol type="1" start="2">
+      <li>파인애플</li>
+      <li>키위</li>
+      <li>사과</li>
+      <li>바나나</li>
+      <li>딸기</li>
+      <li>귤</li>
+    </ol>
+  </section>
+
+  <!-- <a>요소 : 하이퍼링크를 걸고 싶을 때 -->
+  <a style="display: block; font-size: 20px;" href="https://www.codestates.com/">코드스테이츠</a>
+  <a style="display: block; font-size: 20px;" href="./login.html">로그인</a>
+
+  <!-- <img>요소: 이미지를 넣고 싶을 때 -->
+  <img style="width: 300px;"
+    src="https://upload.wikimedia.org/wikipedia/ko/f/f2/%EC%96%B4%EB%B2%A4%EC%A0%B8%EC%8A%A4-_%EC%97%94%EB%93%9C%EA%B2%8C%EC%9E%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+    alt="avangers4">
+
+  <!-- h1~h6까지 -->
+  <h1>제목1</h1>
+  <h2>제목2</h2>
+  <h3>제목3</h3>
+  <h4>제목4</h4>
+  <h5>제목5</h5>
+  <h6>제목6</h6>
+
+  <form action="submit">
+    <div id="todo">
+      <input id="todo_workout" type="checkbox">
+      <label for="todo_workout">운동</label>
+      <input id="todo_study" type="checkbox">
+      <label for="todo_study">공부</label>
+      <input id="todo_drink" type="checkbox">
+      <label for="todo_drink">물 마시기</label>
+      <input id="todo_shopping" type="checkbox">
+      <label for="todo_shopping">장 보기</label>
+      <input id="todo_play" type="checkbox">
+      <label for="todo_play">놀기</label>
+    </div>
+    <div>
+      <button>오늘 할 일 완료</button>
+    </div>
+  </form>
+
+  <br><br>
+  <!-- radio -->
+  <form action="submit">
+    <div>
+      <input id="football" type="radio" name="sports">
+      <label for="football">football</label>
+      <input id="baseball" type="radio" name="sports">
+      <label for="baseball">baseball</label>
+      <input id="sports" type="radio" name="sports">
+      <label for="basketball">basketball</label>
+      <input id="sports" type="radio" name="sports">
+      <label for="tennis">tennis</label>
+    </div>
+    <div>
+      <button>신청</button>
+    </div>
+  </form>
+
+  <input type="text"><br>
+  <input type="email" placeholder="email@example.com"><br>
+  <input type="password"><br>
+  <input type="date"><br>
+  <input type="time"><br>
+  <input type="color"><br>
+  <input type="file"><br>
+  <input type="number"><br>
+
+  <select>
+    <option value="select">기수를 선택하세요</option>
+    <option value="39th">39기</option>
+    <option value="40th">40기</option>
+    <option value="41th">41기</option>
+    <option value="42th">42기</option>
+    <option value="43th">43기</option>
+    <option value="44th">44기</option>
+    <option value="45th">45기</option>
+  </select>
+
+  <!-- p와 div의 차이 -->
+  <!-- p는 단락이 나누어 집니다. -->
+  <p>《어벤져스》(영어: The Avengers)는 마블 스튜디오가 제작하고 월트 디즈니 픽처스가 배급하여 개봉된 2012년 미국의 슈퍼 히어로 영화이다. </p>
+  <p>마블 코믹스에 등장하는 동명의 슈퍼히어로 팀을 바탕으로 하고 있다. </p>
+  <p>2005년 4월 마블 스튜디오가 메릴린치에서 대출을 받아 기획이 시작되고 2008년 5월 아이언맨이 성공한 후 어벤져스가 2011년 7월에 발표되었고, 2012년으로 개봉이 연기되었다. </p>
+  <p>2010년 4월 조스 위던 감독과 잭 펜이 집필한 각본을 다시 각색하기 위해 고용되었다. </p>
+  <p>촬영은 2011년 4월부터 뉴멕시코주 앨버커키에서 시작되어 8월 오하이오주 클리블랜드, 9월 뉴욕에서 진행되었다. 또한 포스트 프로덕션 때에는 3D 영화로 변환되었다. 월드 프리미어는 2012년 4월 11일
+    캘리포니아 할리우드의 엘 캐피탄 극장에서 열렸다. </p>
+  <p>평론가로부터 높은 평가를 받고 또한 흥행면에서도 역대 최고의 북미 오프닝, 사상 최고 속도로 세계 흥행 수입 10억 달러를 돌파하는 등 많은 신기록을 만들어 냈다. 속편은 2015년에 공개되었다.</p>
+
+  <br><br>
+  <!-- div는 단지 영역을 구분할 뿐입니다. -->
+  <div>《어벤져스》(영어: The Avengers)는 마블 스튜디오가 제작하고 월트 디즈니 픽처스가 배급하여 개봉된 2012년 미국의 슈퍼 히어로 영화이다.</div>
+  <div>마블 코믹스에 등장하는 동명의 슈퍼히어로 팀을 바탕으로 하고 있다.</div>
+  <div>2005년 4월 마블 스튜디오가 메릴린치에서 대출을 받아 기획이 시작되고 2008년 5월 아이언맨이 성공한 후 어벤져스가 2011년 7월에 발표되었고, 2012년으로 개봉이 연기되었다.</div>
+  <div>2010년 4월 조스 위던 감독과 잭 펜이 집필한 각본을 다시 각색하기 위해 고용되었다.</div>
+  <div>촬영은 2011년 4월부터 뉴멕시코주 앨버커키에서 시작되어 8월 오하이오주 클리블랜드, 9월 뉴욕에서 진행되었다. 또한 포스트 프로덕션 때에는 3D 영화로 변환되었다. 월드 프리미어는 2012년 4월
+    11일 캘리포니아 할리우드의 엘 캐피탄 극장에서 열렸다.</div>
+  <div>평론가로부터 높은 평가를 받고 또한 흥행면에서도 역대 최고의 북미 오프닝, 사상 최고 속도로 세계 흥행 수입 10억 달러를 돌파하는 등 많은 신기록을 만들어 냈다. 속편은 2015년에 공개되었다.
+  </div>
+
+  <br><br>
+  <!-- 간단한 영화 소개 -->
+  <section>
+    <h1>어벤저스1</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/ko/1/18/%EC%96%B4%EB%B2%A4%EC%A0%B8%EC%8A%A4.jpg"
+      alt="avengers poster">
+    <p>
+      《어벤져스》(영어: The Avengers)는 마블 스튜디오가 제작하고 월트 디즈니 픽처스가 배급하여 개봉된 2012년 미국의 슈퍼 히어로 영화이다.
+    </p>
+  </section>
+  <button class="btn" style="cursor:pointer; width: 300px; height: 50px;">클릭하면 log가 출력됩니다.</button>
+
+  <!-- script 요소로 JavaScript를 실행할 수 있습니다. -->
+  <!-- <script>
+      // console.log('버튼을 클릭하셨습니다.')
+      let loginButton = document.querySelector('.btn')
+      loginButton.addEventListener('click', (e) =>{
+          //클릭 이벤트가 발생하면 이거 출력해 줘.
+          console.log('버튼을 클릭하셨습니다.')
+      })
+  </script> -->
+  <script src="script.js"></script>
+
+  <section class="container"></section>
+</body>
+
+</html>
