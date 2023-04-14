@@ -26,9 +26,10 @@ body {
     padding: 0.2rem;
 }
 
-.calculator > div {
-    /* border: 1px dotted red; */
-}
+/* .calculator > div {
+    border: 1px dotted red;
+}*/
+
 .calculator > div:nth-child(1) {
     flex: 0 0 auto;
 }
