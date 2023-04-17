@@ -30,10 +30,6 @@ body {
     box-shadow: 0.5rem 0.5rem 2rem rgb(59, 59, 59);
 }
 
-/* .calculator > div {
-    border: 1px dotted red;
-}*/
-
 .calculator > div:nth-child(1) {
     flex: 0 0 auto;
 }
